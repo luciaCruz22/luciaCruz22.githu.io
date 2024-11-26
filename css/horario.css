@@ -1,0 +1,102 @@
+/* Estilos básicos */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffb3b3; /* Rosa pastel */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Sección de horarios */
+#horarios {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ff6666; /* Color para título */
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ffcccc; /* Fondo de cabecera de tabla */
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-theme {
+    background-color: #333;
+    color: #f4f4f9;
+}
+
+body.dark-theme header {
+    background-color: #ff6666; /* Acento de color más oscuro */
+}
+
+body.dark-theme table th {
+    background-color: #ff4d4d; /* Cabecera más oscura */
+}
+
+body.dark-theme table tbody tr:nth-child(even) {
+    background-color: #666;
+}
+
+body.dark-theme table tbody tr:hover {
+    background-color: #555;
+}
